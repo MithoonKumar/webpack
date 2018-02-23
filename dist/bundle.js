@@ -67,19 +67,23 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var obj = __webpack_require__(1);
 console.log("console", obj.message);
 alert(obj.message);
 
-
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 module.exports = {
-  message:"Hello people from winterfell"
+  message: "Hello people from winterfell"
 };
-
 
 /***/ })
 /******/ ]);
